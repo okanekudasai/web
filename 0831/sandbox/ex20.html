@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>블록과 인라인</title>
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+                /* none,  inline, block, inline-block */
+                display: inline-block;
+            }
+
+            #x {
+                background-color: #ffe400;
+            }
+
+            #y {
+                background-color: #b5b2ff;
+                visibility: hidden;
+                /* display: none; */
+            }
+
+            #z {
+                background-color: #d9418c;
+            }
+        </style>
+    </head>
+
+    <body>
+        웹 표준은
+        <div id="x">HTML</div>
+        구조,
+        <div id="y">CSS</div>
+        디자인,
+        <div id="z">JavaScript</div>
+        동작이 있습니다.
+    </body>
+</html>
